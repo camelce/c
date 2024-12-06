@@ -69,24 +69,24 @@ import ArticleDetail from './pages/ArticleDetail.jsx';
 const router = createBrowserRouter(
   [
     {
-      path: "/home",
-      element: <Home />,
-    },
-    {
       path: "/",
       element: <Home />,
     },
+    // {
+    //   path: "/",
+    //   element: <Home />,
+    // },
     {
-      path: "/:type",
+      path: "c/:type",
       element: <ItemDetail />,
     },
     {
-      path: "/:type/:id",
+      path: "c/:type/:id",
       element: <ArticleDetail />,
     },
     {
       path: "*",
-      element: <Navigate to="/home" replace />,
+      element: <Navigate to="/" replace />,
     },
   ],
   {
