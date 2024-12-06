@@ -25,7 +25,7 @@ const ItemDetail = () => {
             <p>{cutContent_in_loop(item.content)}</p>
             <p><strong>Date:</strong> {item.date}</p>
             {/* رابط يوجه إلى صفحة ArticleDetail لهذا العنصر */}
-            <Link to={`/${type}/${item.id}`}>
+            <Link to={`/c/${type}/${item.id}`}>
             {/* <Link to={`${item.id}`}> */}
 
               <button>View</button>

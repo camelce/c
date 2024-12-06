@@ -69,7 +69,7 @@ import ArticleDetail from './pages/ArticleDetail.jsx';
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "/c/",
       element: <Home />,
     },
     // {
@@ -77,11 +77,11 @@ const router = createBrowserRouter(
     //   element: <Home />,
     // },
     {
-      path: "/:type",
+      path: "/c/:type",
       element: <ItemDetail />,
     },
     {
-      path: "/:type/:id",
+      path: "/c/:type/:id",
       element: <ArticleDetail />,
     },
     {
