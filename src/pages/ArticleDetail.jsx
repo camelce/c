@@ -156,7 +156,7 @@ const ArticleDetail = () => {
                 {item.date}
               </p>
               {/* رابط يوجه إلى صفحة ArticleDetail لهذا العنصر */}
-              <Link to={`/c/${type}/${item.id}`}>
+              <Link to={`/${type}/${item.id}`}>
 
                 <button>
                 { isArabic(currentItem.name)
