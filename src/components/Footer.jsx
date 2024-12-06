@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/dark_mode.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -31,30 +32,12 @@ const Footer = () => {
         className="footer-3"
           //  style={{ listStyleType: 'none', padding: 0, margin: '10px 0' }}
            >
-            <li><a href="/c/news" 
-        className="footer-4"
-            // style={{ color: '#4CAF50', textDecoration: 'none' }}
-            >News</a></li>
-            <li><a href="/art" 
-        className="footer-4"
-
-            // style={{ color: '#4CAF50', textDecoration: 'none' }}
-            >Articles</a></li>
-            <li><a href="/job" 
-        className="footer-4"
-
-            // style={{ color: '#4CAF50', textDecoration: 'none' }}
-            >Jobs</a></li>
-            <li><a href="/home" 
-        className="footer-4"
-
-            // style={{ color: '#4CAF50', textDecoration: 'none' }}
-            >About Us</a></li>
-            <li><a href="/home" 
-        className="footer-4"
-
-            // style={{ color: '#4CAF50', textDecoration: 'none' }}
-            >Contact</a></li>
+            
+            <li><Link to={`/news`} className="footer-4">News</Link></li>
+            <li><Link to={`/articles`} className="footer-4">Articles</Link></li>
+            <li><Link to={`/jobs`} className="footer-4">Jobs</Link></li>
+            <li><Link to={`/`} className="footer-4">About Us</Link></li>
+            <li><Link to={`/`} className="footer-4">Contact</Link></li>
           </ul>
         </div>
 

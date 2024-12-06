@@ -6,6 +6,7 @@ import '../styles/dark_mode.css'; // استيراد ملف CSS
 const ItemDetail = () => {
   const { type } = useParams();  // الحصول على نوع العنصر من الرابط
   const items = camelc[type];  // الحصول على العناصر الخاصة بالنوع
+  window.scrollTo(0, 0);
 
 
   
