@@ -8,7 +8,7 @@ const Nav1 = () => {
   return (
       <div className='logoDiv'>
         {/* <img className="logo" src="/logofull.png" alt="" />  */}
-        <img className="logo" src="/assets/logofull.png" alt="" /> 
+        <img className="logo" src="/c/assets/logofull.png" alt="" /> 
       </div>
   );
 }
