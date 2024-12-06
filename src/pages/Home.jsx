@@ -4,6 +4,7 @@ import { camelc } from '../utils/json';  // استيراد البيانات من
 
 const Home = () => {
   const categories = Object.keys(camelc);  // استخرج جميع الفئات (news, jobs, etc.)
+  window.scrollTo(0, 0); // للتأكد من العودة إلى أعلى الصفحة عند التحميل
 
   return (
     <div>
@@ -18,7 +19,7 @@ const Home = () => {
       <div className="card-container">
         {categories.map((category, index) => (
           <div key={index} className="card">
-            <Link to={`/c/${category}`} className="card-link">
+            <Link to={`/c/${category}`} className="card-link"> 
               <img src={`/c/assets/${category}.jpg`} alt={category} className="imgfordiv" />
               <div className="divName">
                 <strong>{category}</strong>

@@ -62,6 +62,7 @@ const ArticleDetail = () => {
   const relatedItems = items?.filter((item) => item.id !== parseInt(id)); // العناصر الأخرى
 
   const [isExpanded, setIsExpanded] = useState(false); // حالة لتوسيع النص
+  window.scrollTo(0, 0); // للتأكد من العودة إلى أعلى الصفحة عند التحميل
 
   if (!currentItem) {
     return <div>Item not found!</div>;

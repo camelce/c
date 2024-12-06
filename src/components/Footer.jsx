@@ -31,26 +31,26 @@ const Footer = () => {
         className="footer-3"
           //  style={{ listStyleType: 'none', padding: 0, margin: '10px 0' }}
            >
-            <li><a href="/new" 
+            <li><a href="/c/news" 
         className="footer-4"
             // style={{ color: '#4CAF50', textDecoration: 'none' }}
             >News</a></li>
-            <li><a href="/art" 
+            <li><a href="/c/articles" 
         className="footer-4"
 
             // style={{ color: '#4CAF50', textDecoration: 'none' }}
             >Articles</a></li>
-            <li><a href="/job" 
+            <li><a href="/c/jobs" 
         className="footer-4"
 
             // style={{ color: '#4CAF50', textDecoration: 'none' }}
             >Jobs</a></li>
-            <li><a href="/home" 
+            <li><a href="/" 
         className="footer-4"
 
             // style={{ color: '#4CAF50', textDecoration: 'none' }}
             >About Us</a></li>
-            <li><a href="/home" 
+            <li><a href="/" 
         className="footer-4"
 
             // style={{ color: '#4CAF50', textDecoration: 'none' }}

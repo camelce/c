@@ -7,6 +7,10 @@ const ItemDetail = () => {
   const { type } = useParams();  // الحصول على نوع العنصر من الرابط
   const items = camelc[type];  // الحصول على العناصر الخاصة بالنوع
 
+
+  // useEffect(() => {
+    window.scrollTo(0, 0); // للتأكد من العودة إلى أعلى الصفحة عند التحميل
+  // }, []);
   // دالة لتقصير النص
   const cutContent_in_loop = (content) => {
     const words = content.split(" "); // تقسيم النص إلى كلمات
