@@ -62,7 +62,7 @@ const ArticleDetail = () => {
   const relatedItems = items?.filter((item) => item.id !== parseInt(id)); // العناصر الأخرى
 
   const [isExpanded, setIsExpanded] = useState(false); // حالة لتوسيع النص
-
+  window.scrollTo(0, 0);
   if (!currentItem) {
     return <div>Item not found!</div>;
   }
@@ -156,7 +156,7 @@ const ArticleDetail = () => {
                 {item.date}
               </p>
               {/* رابط يوجه إلى صفحة ArticleDetail لهذا العنصر */}
-              <Link to={`/c/${type}/${item.id}`}>
+              <Link to={`/${type}/${item.id}`}>
 
                 <button>
                 { isArabic(currentItem.name)

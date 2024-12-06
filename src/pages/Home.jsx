@@ -18,8 +18,8 @@ const Home = () => {
       <div className="card-container">
         {categories.map((category, index) => (
           <div key={index} className="card">
-            <Link to={`/c/${category}`} className="card-link"> 
-              <img src={`/c/assets/${category}.jpg`} alt={category} className="imgfordiv" />
+            <Link to={`/${category}`} className="card-link"> 
+              <img src={`/assets/${category}.jpg`} alt={category} className="imgfordiv" />
               <div className="divName">
                 <strong>{category}</strong>
               </div>

@@ -31,7 +31,7 @@ const Footer = () => {
         className="footer-3"
           //  style={{ listStyleType: 'none', padding: 0, margin: '10px 0' }}
            >
-            <li><a href="/new" 
+            <li><a href="/c/news" 
         className="footer-4"
             // style={{ color: '#4CAF50', textDecoration: 'none' }}
             >News</a></li>
