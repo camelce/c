@@ -4,6 +4,7 @@ import { camelc } from '../utils/json';  // استيراد البيانات من
 
 const Home = () => {
   const categories = Object.keys(camelc);  // استخرج جميع الفئات (news, jobs, etc.)
+  window.scrollTo(0, 0);
 
   return (
     <div>
@@ -13,7 +14,13 @@ const Home = () => {
           Your ultimate destination for <strong>news</strong>, <strong>articles</strong>, and{' '}
           <strong>job opportunities</strong> from around the globe.
         </p>
+        <p className="paragraph">
+          Our mission is to be your go-to source for valuable information and inspiration to meet your
+          everyday needs. Stay connected with us to stay informed and inspired! 🌍
+        </p>
       </div>
+
+      
 
       <div className="card-container">
         {categories.map((category, index) => (

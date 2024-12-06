@@ -52,7 +52,8 @@ const Footer = () => {
           >Contact Us</h3>
           <p>Email: There is no email available yet.</p>
           <p>Phone: +no phone number</p>
-          <p>Address: 123 Maple Street, Toronto, ON, Canada</p>
+          <p>Address: The address is currently unavailable.</p>
+          {/* <p>Address: 123 Maple Street, Toronto, ON, Canada</p> */}
         </div>
 
         {/* أيقونات التواصل الاجتماعي */}
