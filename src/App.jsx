@@ -40,7 +40,7 @@
 //               <Route path="*" element={<Navigate to="/home" replace />} />
 //               <Route path="/:type" element={<ItemDetail />} />
 //               {/* <Route path="/article/:id" element={<ArticleDetail />} /> */}
-//               <Route path="/:type/:id" element={<ArticleDetail />} /> 
+//               <Route path="c/:type/:id" element={<ArticleDetail />} /> 
               
 //             </Routes>
 //           </main>
