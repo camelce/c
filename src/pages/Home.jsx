@@ -4,7 +4,6 @@ import { camelc } from '../utils/json';  // استيراد البيانات من
 
 const Home = () => {
   const categories = Object.keys(camelc);  // استخرج جميع الفئات (news, jobs, etc.)
-  window.scrollTo(0, 0); // للتأكد من العودة إلى أعلى الصفحة عند التحميل
 
   return (
     <div>
